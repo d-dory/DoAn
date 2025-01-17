@@ -56,7 +56,7 @@ socketIo.on("connection", (socket) => {
       console.log("Client disconnected"); 
     });
   });
-let port = process.env.PORT || 6969;
+let port = process.env.PORT || 4000;
 
 server.listen(port, () => {
     console.log("Backend Nodejs is running on the port : " + port)
